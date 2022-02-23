@@ -15,6 +15,6 @@ class HomeController extends Controller
     }
 
     public function articles($id){
-        echo "Ini merupakan halaman dengan ID".$id;
+        echo "Ini merupakan halaman dengan ID ".$id;
     }
 }
